@@ -13,9 +13,16 @@
         <body >
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-8 col-lg-8 align-self-center"><h1 style="margin:0;"> Welcome </h1></div>
-                <div class="col-2 offset-2 col-lg-1 offset-lg-0 align-self-center" style="text-align:right"><h5 style="text-transform:uppercase; margin:0;"><?php echo $_SESSION['User'] ?> </h5> </div>
-                <div class="col-12 col-lg-3" style="text-align:center"><a type="button" class="btn btn-light" href="delcookies.php?delete">Delete Cookies</a><a type="button" class="btn btn-outline-primary" href="logout.php?logout">Logout</a> </div>
+                <div class="col-8 col-lg-8 align-self-center">
+                    <h1 style="margin:0;"> Welcome </h1>
+                </div>
+                <div class="col-2 offset-2 col-lg-1 offset-lg-0 align-self-center" style="text-align:right">
+                    <h5 style="text-transform:uppercase; margin:0;"><?php echo $_SESSION['User'] ?> </h5> 
+                </div>
+                <div class="col-12 col-lg-3" style="text-align:center">
+                    <a type="button" class="btn btn-light" href="delcookies.php?delete">Delete Cookies</a>
+                    <a type="button" class="btn btn-outline-primary" href="logout.php?logout">Logout</a> 
+                </div>
             </div>
         </div>
         <div class="container">
@@ -28,7 +35,9 @@
                         </div>
                         <?php
                     }?>
-                    <div class="col-12 col-md-6" style="text-align:center; margin:10px 0vw"><a type="button" class="btn btn-outline-info" href="welcome.php?Marks">See Marksheets</a></div>
+                    <div class="col-12 col-md-6" style="text-align:center; margin:10px 0vw">
+                        <a type="button" class="btn btn-outline-info" href="welcome.php?Marks">See Marksheets</a>
+                    </div>
             </div>
         </div>
         <?php 

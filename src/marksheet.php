@@ -1,7 +1,8 @@
 <?php 
     require_once('connection.php');
     if(isset($_SESSION['User'])){
-        $sql = "SELECT ID, Sname, marks1, marks2, marks3, marks4, marks5, marksobt, tmarks, percent FROM Marks";
+        $sql = "SELECT ID, Sname,  marks1, marks2, marks3, marks4, marks5, 
+                marksobt, tmarks, percent FROM Marks";
         $result = $con->query($sql);
 
         if ($result->num_rows > 0) {
@@ -52,10 +53,8 @@
             echo "0 results";
         }
         $con-> close();
-    }
-    else{
+    }else{
         $con-> close();
         header("location:./welcome.php");
     }
 ?>
-

@@ -38,8 +38,12 @@
             ?>
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-12" style="text-align:center; margin:5rem 0vw 0 0"><h3>You are not Authorised to Perform this Action</h3></div>
-                    <div class="col-12" style="text-align:center;"><h6>Only admin and root user allowed to enter student data</h6></div>
+                    <div class="col-12" style="text-align:center; margin:5rem 0vw 0 0">
+                        <h3>You are not Authorised to Perform this Action</h3>
+                    </div>
+                    <div class="col-12" style="text-align:center;">
+                        <h6>Only admin and root user allowed to enter student data</h6>
+                    </div>
                 </div>
             </div>
             <?php
